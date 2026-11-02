@@ -43,3 +43,7 @@ To preview your documentation, run
 fern generate --docs --preview
 ```
 The repository contains GitHub workflows that will automatically run these commands for you. For example, when you make a PR a preview link will be auto-generated and when you merge to main the docs site will update.
+
+## Documentation upkeep
+
+Agents must follow the [README maintenance requirements in AGENTS.md](AGENTS.md#readme-maintenance-required-for-agents). Review this README for every task and update affected documentation in the same change. Document verified setup, configuration, behavior, integrations, deployment, and limitations; keep secrets and private data out of Git.
